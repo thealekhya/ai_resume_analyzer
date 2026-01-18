@@ -9,7 +9,7 @@ import Resume from "~/routes/resume";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Resumind" },
+    { title: "Resumatch" },
     { name: "description", content: "Smart feedback of your resume" },
   ];
 }
