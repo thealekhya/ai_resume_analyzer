@@ -27,10 +27,6 @@ const FileUploader = ({onFileSelect}:FileUploaderProps) => {
         maxSize: 20*1024*1024,
     })
 
-    const handleRemoveFile = () => {
-        setSelectedFile(null);
-        onFileSelect?.(null);
-    };
 
     const file = acceptedFiles[0] || null;
 
